@@ -1,5 +1,5 @@
 export interface LoginRequest {
-    username: string;
+    email: string;
     password: string;
 }
 
@@ -10,7 +10,7 @@ export interface LoginResponse {
 export const login: (request: LoginRequest) => Promise<LoginResponse> = (request) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (request.password === '123')
+            if (request.password === 'password123')
                 resolve({ accessToken: 'access_token' });
             else
                 reject(new Error('Invalid credentials'));
