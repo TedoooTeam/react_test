@@ -10,3 +10,12 @@ input {
   border-radius: 5px;
   padding: 0 10px;
 }
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  width: 200px;
+  height: 30px;
+}
