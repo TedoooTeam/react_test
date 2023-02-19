@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Login</h1>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <input type="text" placeholder="Username" />
+        <input type="text" placeholder="Email" />
         <br />
         <input type="password" placeholder="Password" />
         <br />
