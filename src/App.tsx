@@ -12,7 +12,7 @@ function App() {
         <br />
         <button style={{ width: 200, height: 30 }} type="submit">Login</button>
         <br />
-        <span style={{ color: 'red' }}>Invalid Credentials</span>
+        <span style={{ color: 'red' }}>Error here</span>
       </div>
     </div>
   );
