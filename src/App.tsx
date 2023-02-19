@@ -2,12 +2,6 @@ import React, { useState } from 'react';
 import { login } from './api';
 import './App.css';
 
-// 1 - trigger the login action when tapping login
-// 2 - disable the login button if email is blank or password is under 6 characters
-// 3 - disable the login button while loading
-// 4 - if login fails - show the error message
-// 5 - if login succeeds - show a js alert with the user's email and the access token received
-
 function App() {
 
   const [email, setEmail] = useState('');
