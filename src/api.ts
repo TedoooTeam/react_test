@@ -9,6 +9,7 @@ export interface LoginResponse {
 
 export const login: (request: LoginRequest) => Promise<LoginResponse> = (request) => {
     return new Promise((resolve, reject) => {
+        console.log('logging in with ', request);
         setTimeout(() => {
             if (request.password === 'password123')
                 resolve({ accessToken: 'access_token' });
