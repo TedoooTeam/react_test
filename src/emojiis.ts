@@ -5,6 +5,6 @@ export const EMOJI_TABLE = {
 }
 
 export const EMOJI_WELCOME_MESSAGE = (email: string): string =>
-    `Welcome to the tedooo ${email}! :happy:
+    `Welcome to Tedooo ${email}! :happy:
     Hope you are having a great day! :heart::heart:
     `;
