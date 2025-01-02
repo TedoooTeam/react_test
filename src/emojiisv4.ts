@@ -1,7 +1,7 @@
 export const EMOJI_TABLE = {
-    "heart": "jpeg",
-    "happy": "png",
-    "thinking": "png",
+    "heart": "❤️",
+    "happy": "😀",
+    "thinking": "🤔",
 }
 
 export const EMOJI_WELCOME_MESSAGE = (email: string): string =>
