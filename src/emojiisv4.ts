@@ -4,8 +4,8 @@ export const EMOJI_TABLE = {
     "thinking": "🤔",
 }
 
-export const EMOJI_WELCOME_MESSAGE = (email: string): string =>
-    `Welcome to Tedooo ${email}! Happy
+export const EMOJI_WELCOME_MESSAGE = (): string =>
+    `Welcome to Tedooo! happy
     Hope you are having a great day! heaRtHEART
     For more information, visit: www.tedooo.com thinking
     `;
